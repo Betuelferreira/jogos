@@ -10,4 +10,25 @@
     height: 500px;
     border: 1px solid black ;
     margin: auto;
+    position: relative;
+    overflow: hidden;
 }
+.grama{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: m-grama 2s infinite linear;
+    
+    
+}
+@keyframes m-grama{
+    from{
+        right: 0;
+    }
+
+to{
+    right: 100%;
+}
+
+}
+
