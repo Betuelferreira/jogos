@@ -13,22 +13,57 @@
     position: relative;
     overflow: hidden;
 }
-.grama{
+.pedra{
     position: absolute;
-    bottom: 0;
+    bottom: 00px;
     width: 80px;
-    animation: m-grama 2s infinite linear;
-    
-    
+    animation: m-pedra 2s infinite linear;
+     
 }
-@keyframes m-grama{
+
+.carro{
+    position: absolute;
+    bottom: -20px;
+    width: 150px;
+      
+}
+
+
+.jump{
+    animation: jump 1s infinite ease-out;
+}
+
+
+
+
+@keyframes m-pedra{
     from{
-        right: 0;
+        right: -80px;
     }
 
 to{
     right: 100%;
 }
 
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0;
+    }
+    40%{
+        bottom: 100px ;
+    }
+
+    50%{
+        bottom: 100px ;
+    }
+    60%{
+        bottom: 100px ;
+    }
+
+    100%{
+        bottom: 0;
+    }
 }
 
