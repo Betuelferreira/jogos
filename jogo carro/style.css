@@ -25,12 +25,12 @@
     position: absolute;
     bottom: -20px;
     width: 150px;
-      
+    
 }
 
 
 .jump{
-    animation: jump 1000ms ease-out;
+    animation: jump 1100ms ease-out;
 }
 
 
