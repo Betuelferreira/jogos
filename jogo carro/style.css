@@ -12,7 +12,26 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+    background-color: rgb(109, 209, 255);
 }
+
+.nuvem2{
+    position: absolute;
+    bottom: 310px;
+    width: 200px;
+    animation: m-nuvem1 8.3s infinite linear; 
+     
+}
+
+.nuvem1{
+    position: absolute;
+    bottom: 300px;
+    width: 80px;
+    animation: m-nuvem1 9s infinite linear; 
+     
+}
+
+
 .pedra{
     position: absolute;
     bottom: 00px;
@@ -33,6 +52,17 @@
     animation: jump 1000ms ease-out;
 }
 
+
+@keyframes m-nuvem1{
+    from{
+        right: -80px;
+    }
+
+to{
+    right: 100%;
+}
+
+}
 
 @keyframes m-pedra{
     from{
