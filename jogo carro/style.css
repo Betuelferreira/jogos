@@ -15,10 +15,18 @@
     background-color: rgb(109, 209, 255);
 }
 
+.nuvem3{
+    position: absolute;
+    bottom: 340px;
+    width: 160px;
+    animation: m-nuvem1 12s infinite linear; 
+     
+}
+
 .nuvem2{
     position: absolute;
-    bottom: 310px;
-    width: 200px;
+    bottom: 320px;
+    width: 190px;
     animation: m-nuvem1 8.3s infinite linear; 
      
 }
@@ -26,8 +34,8 @@
 .nuvem1{
     position: absolute;
     bottom: 300px;
-    width: 80px;
-    animation: m-nuvem1 9s infinite linear; 
+    width: 100px;
+    animation: m-nuvem1 10s infinite linear; 
      
 }
 
