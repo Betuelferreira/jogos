@@ -15,11 +15,11 @@
     background-color: rgb(109, 209, 255);
 }
 
-.nuvem3{
+.nuvem1{
     position: absolute;
     bottom: 340px;
     width: 160px;
-    animation: m-nuvem1 12s infinite linear; 
+    animation: m-nuvem1 15s infinite linear; 
      
 }
 
@@ -27,24 +27,26 @@
     position: absolute;
     bottom: 320px;
     width: 190px;
-    animation: m-nuvem1 8.3s infinite linear; 
-     
-}
-
-.nuvem1{
-    position: absolute;
-    bottom: 300px;
-    width: 100px;
     animation: m-nuvem1 10s infinite linear; 
      
 }
+
+.nuvem3{
+    position: absolute;
+    bottom: 300px;
+    width: 100px;
+    animation: m-nuvem1 13s infinite linear; 
+     
+}
+
+
 
 
 .pedra{
     position: absolute;
     bottom: 00px;
     width: 80px;
-   animation: m-pedra 2s infinite linear; 
+    animation: m-pedra 2s infinite linear; 
      
 }
 
@@ -55,9 +57,34 @@
     
 }
 
+.pista{
+    position: absolute;
+    bottom: -90px;
+    animation: mpista 1s infinite linear;
+    
+}
+.pista2{
+    position: absolute;
+    bottom: -90px;
+    
+}
+
 
 .jump{
     animation: jump 1000ms ease-out;
+}
+
+
+
+@keyframes mpista{
+    from{
+        width: 0px;
+    }
+
+    to{
+        width: 100%;
+}
+
 }
 
 
