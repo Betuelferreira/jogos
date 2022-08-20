@@ -60,14 +60,10 @@
 .pista{
     position: absolute;
     bottom: -90px;
-    animation: mpista 1s infinite linear;
-    
+    width: 100%;
+   
 }
-.pista2{
-    position: absolute;
-    bottom: -90px;
-    
-}
+
 
 
 .jump{
