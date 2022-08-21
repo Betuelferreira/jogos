@@ -14,7 +14,7 @@ const loop = setInterval(() => {
     const posipedra = pedra.offsetLeft;
  /* const posinuvem = nuvem1.offsetLeft; */
     const posicarro = +window.getComputedStyle(carro).bottom.replace('px',' ');
- 
+    
 
     if( posipedra <= 129 && posipedra > 0 && posicarro < 40  ){
 
@@ -25,8 +25,11 @@ const loop = setInterval(() => {
         carro.style.bottom = `${posicarro}px` ; 
         
         carro.src = './imagens/carrob.png'
-
+        document.getElementById('imagem').innerHTML = "<img src = './imagens/perdeu.png' width='250' position= 'absolute' bottom ='1000'>";
     }
+
+
+
 }, 10);
 
 document.addEventListener('keydown', jump)

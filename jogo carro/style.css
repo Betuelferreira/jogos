@@ -40,24 +40,18 @@
 }
 
 
-
-
 .pedra{
     position: absolute;
     bottom: 00px;
     width: 80px;
-    animation: m-pedra 2s infinite linear; 
-     
+    animation: m-pedra 2s infinite linear;   
 }
 
 .carro{
     position: absolute;
     bottom: -12px;
-    width: 150px;
-    
+    width: 150px;   
 }
-
-
 
 .pista{
     position: absolute;
@@ -66,12 +60,9 @@
    
 }
 
-
-
 .jump{
     animation: jump 1000ms ease-out;
 }
-
 
 
 @keyframes mpista{
@@ -84,7 +75,6 @@
 }
 
 }
-
 
 @keyframes m-nuvem1{
     from{
