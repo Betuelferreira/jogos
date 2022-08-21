@@ -19,7 +19,7 @@
     position: absolute;
     bottom: 340px;
     width: 160px;
-    animation: m-nuvem1 15s infinite linear; 
+    animation: m-nuvem1 20s infinite linear; 
      
 }
 
@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 320px;
     width: 190px;
-    animation: m-nuvem1 10s infinite linear; 
+    animation: m-nuvem1 14s infinite linear; 
      
 }
 
@@ -35,7 +35,7 @@
     position: absolute;
     bottom: 300px;
     width: 100px;
-    animation: m-nuvem1 13s infinite linear; 
+    animation: m-nuvem1 16s infinite linear; 
      
 }
 

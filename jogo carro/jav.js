@@ -23,11 +23,9 @@ const loop = setInterval(() => {
 
         carro.style.animation = 'none'
         carro.style.bottom = `${posicarro}px` ; 
-
-        /* nuvem1.style.animation = 'none'
-        nuvem1.style.left = `${posinuvem}px` ; */ 
         
         carro.src = './imagens/carrob.png'
+
     }
 }, 10);
 
