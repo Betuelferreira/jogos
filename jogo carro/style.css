@@ -59,11 +59,11 @@
    
 }
 
-.pontos{
+.perdeu{
     position: absolute;
-    top: 40px;
-    left: 0px;
-    color: black;
+    botton 100px;
+    left: 30px;
+    
 }
 
 .jump{
