@@ -1,5 +1,7 @@
 const carro = document.querySelector('.carro');
 const pedra = document.querySelector('.pedra');
+const pontos = document.querySelector('.pontos');
+
 
 const jump = () => {
     carro.classList.add('jump');
@@ -26,10 +28,10 @@ const loop = setInterval(() => {
         
         carro.src = './imagens/carrob.png'
         document.getElementById('imagem').innerHTML = "<img src = './imagens/perdeu.png' width='250' position= 'absolute' bottom ='1000'>";
+    
+
     }
-
-
-
+ 
 }, 10);
 
 document.addEventListener('keydown', jump)

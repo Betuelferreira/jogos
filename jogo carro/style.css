@@ -39,7 +39,6 @@
      
 }
 
-
 .pedra{
     position: absolute;
     bottom: 00px;
@@ -58,6 +57,13 @@
     bottom: -130px;
     width: 100%;
    
+}
+
+.pontos{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    color: black;
 }
 
 .jump{
