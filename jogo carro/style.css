@@ -54,7 +54,7 @@
 
 .pista{
     position: absolute;
-    bottom: -130px;
+    bottom: -168px;
     width: 100%;
    
 }
@@ -63,13 +63,21 @@
 
     position: absolute;
     bottom: 155px;
-    width: 15%;
-    left: 42.5%;
-    display: none;
-
-    
-    
+    width: 18%;
+    left: 41%;
+    display: none;  
 }
+
+#pontos{
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 88%;
+  color: blue;
+}
+
 
 .jump{
     animation: jump 1000ms ease-out;
