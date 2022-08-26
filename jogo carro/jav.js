@@ -37,7 +37,7 @@ const loop = setInterval(() => {
     const posicarro = +window.getComputedStyle(carro).bottom.replace('px',' ');
     
 
-    if( posipedra == 129 && posicarro > 40  ){
+    if( posipedra <= 129 && posipedra > 0 && posicarro < 40  ){
 
         pedra.style.animation = 'none'
         pedra.style.left = `${posipedra}px` ;
