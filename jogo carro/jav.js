@@ -1,7 +1,23 @@
 const carro = document.querySelector('.carro');
 const pedra = document.querySelector('.pedra');
-const pontos = document.querySelector('.pontos');
 const perdeu = document.getElementById('perdeu');
+const pontos = document.getElementById('pontos'); 
+
+
+var game = true;
+let interval = null;
+let playerPontos = 0;
+
+
+
+let contPont = () => {
+    if (game){
+    playerPontos++;
+    pontos.innerHTML = `pontos <b>${playerPontos}</b>`;}
+}
+interval = setInterval(contPont,200);
+
+
 
 
 const jump = () => {
@@ -11,6 +27,8 @@ setTimeout ( () => {
     carro.classList.remove('jump');
 }, 1000);
 }
+
+
 
 const loop = setInterval(() => {
 
@@ -31,7 +49,8 @@ const loop = setInterval(() => {
         
 
        perdeu.style.display ='unset'
-    
+       
+       game = false
 
     }
  
