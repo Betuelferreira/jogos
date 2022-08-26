@@ -1,6 +1,7 @@
 const carro = document.querySelector('.carro');
 const pedra = document.querySelector('.pedra');
 const pontos = document.querySelector('.pontos');
+const perdeu = document.getElementById('perdeu');
 
 
 const jump = () => {
@@ -27,7 +28,9 @@ const loop = setInterval(() => {
         carro.style.bottom = `${posicarro}px` ; 
         
         carro.src = './imagens/carrob.png'
-        document.getElementById('imagem').innerHTML = "<img src = './imagens/perdeu.png' width='250' position= 'absolute' bottom ='1000'>";
+        
+
+       perdeu.style.display ='unset'
     
 
     }
