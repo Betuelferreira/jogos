@@ -13,7 +13,7 @@ let playerPontos = 0;
 let contPont = () => {
     if (game){
     playerPontos++;
-    pontos.innerHTML = `PONTOS <b>${playerPontos}</b>`;}
+    pontos.innerHTML = `PONTOS: <b>${playerPontos}</b>`;}
 }
 interval = setInterval(contPont,200);
 
