@@ -74,9 +74,10 @@
   position: absolute;
   top: 40px;
   right: 0;
-  left: 88%;
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  left: 85%;
+  color: rgb(230, 111, 0);
+  font-family: 'Silkscreen', cursive; sans-serif;
+  font-size: 1.2em;
 }
 
 
@@ -104,8 +105,8 @@
 to{
     right: 100%;
 }
-
 }
+
 
 @keyframes m-pedra{
     from{
