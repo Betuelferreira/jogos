@@ -56,6 +56,5 @@ const loop = setInterval(() => {
  
 }, 10);
 
-/*document.addEventListener('keydown', jump)*/
-document.addEventListener('keyup', jump)
+document.addEventListener('keydown', jump)
 
