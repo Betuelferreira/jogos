@@ -57,4 +57,4 @@ const loop = setInterval(() => {
 }, 10);
 
 /*document.addEventListener('keydown', jump)*/
-document.addEventListener('Key_space', jump)
+document.addEventListener('Keyspace', jump)
