@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#botao{
+ 
+}
+
 .car-jump{
     
     width: 90%;
@@ -43,7 +47,7 @@
     position: absolute;
     bottom: 00px;
     width: 80px;
-    animation: m-pedra 2s infinite linear;   
+       
 }
 
 .carro{
@@ -76,8 +80,12 @@
   right: 0;
   left: 85%;
   color: rgb(230, 111, 0);
-  font-family: 'Silkscreen', cursive; sans-serif;
+  font-family: 'Silkscreen', cursive, sans-serif;
   font-size: 1.2em;
+}
+
+.anpedra{
+    animation: m-pedra 2s infinite linear;
 }
 
 
