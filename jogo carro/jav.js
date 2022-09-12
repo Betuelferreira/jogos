@@ -2,13 +2,27 @@ const carro = document.querySelector('.carro');
 const pedra = document.querySelector('.pedra');
 const perdeu = document.getElementById('perdeu');
 const pontos = document.getElementById('pontos'); 
+const botao = document.getElementById('botao')
 
 
-var game = true;
+
+pedra.style.display = "none"
+carro.style.display = "none"
+
+let game = false;
 let interval = null;
 let playerPontos = 0;
 
 
+
+const inicio = () =>{
+    pedra.classList.add('anpedra');
+    pedra.style.display = "unset"
+    carro.style.display = "unset"
+    game = true;
+} 
+console.log(botao)
+botao.addEventListener('click', inicio)
 
 let contPont = () => {
     if (game){
