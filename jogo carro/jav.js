@@ -2,12 +2,14 @@ const carro = document.querySelector('.carro');
 const pedra = document.querySelector('.pedra');
 const perdeu = document.getElementById('perdeu');
 const pontos = document.getElementById('pontos'); 
-const botao = document.getElementById('botao')
+const botao = document.getElementById('botao');
+const botao2 = document.getElementById('botao2');
 
 
-
+botao2.style.display = "none"
 pedra.style.display = "none"
 carro.style.display = "none"
+
 
 let game = false;
 let interval = null;
@@ -19,19 +21,31 @@ const inicio = () =>{
     pedra.classList.add('anpedra');
     pedra.style.display = "unset"
     carro.style.display = "unset"
+    botao.style.display = "none"
     game = true;
 } 
-console.log(botao)
 botao.addEventListener('click', inicio)
+
+/* const reiniciar = () =>{
+    pedra.classList.add('anpedra');
+    pedra.style.display = "unset"
+    carro.style.display = "unset"
+    
+    botao2.style.display = "none"
+    perdeu.style.display = "none"
+
+    game = true;
+} 
+botao2.addEventListener('click', reiniciar) */
+
 
 let contPont = () => {
     if (game){
     playerPontos++;
     pontos.innerHTML = `PONTOS: <b>${playerPontos}</b>`;}
+    
 }
 interval = setInterval(contPont,200);
-
-
 
 
 const jump = () => {
@@ -62,9 +76,12 @@ const loop = setInterval(() => {
         carro.src = './imagens/carrob.png'
         
 
-       perdeu.style.display ='unset'
+        perdeu.style.display ='unset'
        
-       game = false
+        game = false
+
+        /* botao2.style.display ='unset' */
+
 
     }
  
