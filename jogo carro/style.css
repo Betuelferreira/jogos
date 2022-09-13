@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-#botao{
- 
-}
 
 .car-jump{
     
@@ -43,6 +40,8 @@
      
 }
 
+
+
 .pedra{
     position: absolute;
     bottom: 00px;
@@ -61,6 +60,34 @@
     bottom: -128px;
     width: 100%;
    
+}
+
+#botao{
+    position: absolute;
+    width: 18%;
+    height: 10%;
+    bottom: 50%;
+    left: 40%;
+    font-size: 1.5em;
+    font-family: 'Silkscreen', cursive, sans-serif;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 122, 74);
+}
+
+#botao2{
+    position: absolute;
+    width: 18%;
+    height: 10%;
+    bottom: 50%;
+    left: 40%;
+    font-size: 1.5em;
+    font-family: 'Silkscreen', cursive, sans-serif;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 122, 74);
 }
 
 #perdeu{
